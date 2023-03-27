@@ -64,9 +64,9 @@ public class Exe1 {
         if(cus >= 30 || kg >= 15){
             des = cus*0.1;
             cusF = cus-des;
-            System.out.println("O valor a ser pago é"+cusF);
+            System.out.println("O valor a ser pago é R$"+cusF);
         }else{
-            System.out.println("O valor a ser pago é"+cusF);
+            System.out.println("O valor a ser pago é R$"+cusF);
         }
     }
 }
